@@ -13,7 +13,11 @@
   },
   "include": [
     "packages/**/*.ts",
-    "packages/**/*.tsx",
-    "*.d.ts"
+    "packages/**/*.d.ts",
+    "playground/**/*.ts",
+    "playground/**/*.d.ts"
+  ],
+  "exclude": [
+    "tests/**/*.ts"
   ]
 }
